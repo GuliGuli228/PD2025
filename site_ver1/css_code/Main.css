@@ -1,0 +1,205 @@
+.Header{
+  display:flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  gap: 100px;
+  height: 90px;
+  border-color:rgb(78, 2, 243) ;
+  
+}
+.Header-text{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color:white;
+  border: solid;
+  height: 40px;
+  width: 180px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 15px;
+  transition: 0.20s;
+  border-width: 4px;
+}
+
+.Header-text:hover{
+  border-color:rgb(78, 2, 243) ;
+}
+.description{
+  position:absolute;
+  top:250px;
+  left:5;
+  color: white;
+  font-size: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.description-name{
+  font-weight: 600;
+  color:white;
+  font-size: 50px;
+  position: absolute;
+  top:80px;
+  display: inline-block;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border-width: 4px;
+  border-color: rgb(78, 2, 243);
+}
+.description-text{
+  vertical-align: top;
+  display: inline-block;
+  width: 70%;
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.541);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  border-radius: 20px;
+  padding-right: 40px;
+  margin-left: 40px;
+}
+.about-header{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.541);
+  font-size: 40px;
+  width: 500px;
+  border: solid;
+  border-radius: 20px;
+  border-width: 5px;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+.about-info{
+  color:white;
+  background-color:rgba(0, 0, 0, 0.541) ;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid;
+  border-width: 3px;
+  border-color:rgb(78, 2, 243);
+}
+.Team-header{
+  color: white;
+  font-size: 40px;
+  border:solid;
+  border-width: 5px;
+  background-color: rgba(0, 0, 0, 0.541);
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 5px;
+  width:400px;
+}
+.teammember{
+  width: 150px;
+  height: 150px;
+  border: solid;
+  border-radius: 75px;
+  border-width: 8px;
+  border-color:rgb(78, 2, 243) ;
+  
+}
+.teammember-div{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  column-gap: px;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+.member-info{
+  font-size: 30px;
+  color:white;
+  border: solid;
+  border-width: 3px;
+  border-color: rgb(78, 2, 243);
+  background-color: rgba(0, 0, 0, 0.541) ;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+}
+.Member-name{
+  color:white;
+  font-size: 40px;
+  display: block;
+  width: max-content;
+  background-color: rgba(0, 0, 0, 0.541) ;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-bottom: 10px;
+  margin-left: 120px;
+  margin-top: 0;
+}
+.res-info{
+  color:white;
+  background-color: rgba(0, 0, 0, 0.541);
+  font-size: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgb(78, 2, 243);
+}
+.res-url{
+  text-decoration: underline;
+  color: white;
+}
+.Journal-header{
+  color:white;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.541);
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:solid;
+  border-radius: 20px;
+  border-width: 5px;
+  width: 150px;
+
+}
+
+.Journal-info{
+  color:white;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.541);
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border:solid;
+  border-radius: 20px;
+  border-width: 3px;
+  border-color: rgb(78, 2, 243);
+  margin-right: 20px;
+}

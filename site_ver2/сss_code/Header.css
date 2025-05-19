@@ -1,0 +1,32 @@
+.Header{
+  display:flex;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  gap: 100px;
+  height: 90px;
+  border-color:rgb(78, 2, 243) ;
+  
+}
+.Header-text{
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color:white;
+  border: solid;
+  height: 40px;
+  width: 180px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  padding-top: 15px;
+  transition: 0.20s;
+  border-width: 4px;
+}
+.Header-text:hover{
+  border-color:rgb(78, 2, 243) ;
+}
