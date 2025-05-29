@@ -169,3 +169,23 @@ flowchart LR
     Extraction --> Requests
     Requests --> Storage[Локальное хранилище]
 ```
+### Проблемы, возникшие в ходе разработки
+В начальных версиях проектах **Pinterest** блокировал входящие запросы, проблема была решена внедрением задержи скрола страницы. Однако алгоритмы защиты постоянно меняются, поэму возможна модернизация проекта следующим образом: Запуск сессии на сайте вручную, копирование cookie сессии, использование этих cookie
+
+### Пример работы приложения:
+
+**Запуск**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image1.png)
+
+**Ввод запроса**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image2.png)
+
+**Ввод количества изображений**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image3.png)
+
+**Указание директории**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image4.png)
