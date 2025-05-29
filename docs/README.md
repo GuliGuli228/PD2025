@@ -18,5 +18,16 @@
 
 #### Основная структура веб сайта
 Для удобной навигации по сайту было принято решение реализовать закрепленную верхнюю панель с кнопками 
-Реализация на сайте:
+
 ![alt-Реализация на сайте](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image.png)
+
+Реализация в коде:
+```HTML
+<div class="Header">
+    <div class="Header-button"><a href="#sec1" class="Header-text"> Главная страница </a></div>
+    <div class="Header-button"><a href="#sec2" class="Header-text"> О проекте</a></div>
+    <div class="Header-button"><a href="#sec3" class="Header-text">Участники</a></div>
+    <div class="Header-button"><a href="#sec4" class="Header-text"> Ресурсы </a></div>
+    <div class="Header-button"><a href="#sec5" class="Header-text"> Журнал </a></div>
+  </div>
+```
