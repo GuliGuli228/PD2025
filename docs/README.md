@@ -189,3 +189,17 @@ flowchart LR
 **Указание директории**
 
 ![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image4.png)
+
+**Завершение**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image5.png)
+
+**Результат**
+
+![alt-Запуск](https://github.com/GuliGuli228/PD2025/blob/main/docs/images/image6.png)
+
+### Заключение
+В ходе работы над вариативной часть проектной практики было создано с нули консольное приложение для парсинга изображений с соцсети Pinterest
+
+## Взаимодействие с парнерами
+---
